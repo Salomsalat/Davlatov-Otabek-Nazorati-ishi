@@ -1,0 +1,92 @@
+.about {
+    margin-top: 80px;
+    text-align: center;
+}
+.container {
+}
+.about-inner {
+}
+.about-list {
+    margin-bottom: 80px;
+    gap: 50px;
+    display: flex;
+    list-style-type: none;
+}
+.site-header-item4{
+    border: 1px solid #000;
+}
+.about-item {
+
+    &:hover{
+        background-color: #000;
+        color: #fff;
+        border-radius: 20px;
+        padding: 10px;
+    }
+}
+.loadmore{
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    padding: 12px 32px;
+    margin-right: 100px;
+    margin-bottom: 64px;
+
+    &:hover{
+        background-color: #000;
+        color: #fff;
+        border-color: #fff;
+    }
+}
+.about-item-logo {
+    height: 330px;
+    height: 298px;
+    align-self: stretch;
+    border-radius: 20px;
+}
+.about-item-text1 {
+    display: flex;
+    align-items: center;
+}
+.about-item-img {
+    display: flex;
+}
+.about-item-me{
+    display: flex;
+    align-items: center;
+}
+.about-item-p {
+    text-align: center;
+    margin-left: 12px;
+}
+.about-item-link {
+    margin-left: auto;
+}
+.about-item-text2 {
+    display: flex;
+    gap: 49px;
+    margin-left: 50px;
+
+}
+
+@media only screen and (max-width: 460px){
+    .about-list{
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-item-link{
+        margin-left: 120px;
+    }
+    .about-item-text1{
+        margin-left: 50px;
+    }
+    .about-item-text2{
+        margin-left: 100px;
+    }
+    .loadmore{
+        text-align: center;
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+}
